@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/bf59b9cb34.js" crossorigin="anonymous"></script>
+    <title>University Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css">
+</head>
+
+<body>
+    <!-- ------------------------------Header--------------------------------- -->
+    <section class="header2">
+        <nav>
+            <a href="index.html"><img src="img/logo.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <div class="text-box">
+            <h1>University Blog</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore distinctio odit natus unde eius, laborum
+                ipsam iste <br> exercitationem recusandae tempora nesciunt ab molestias expedita veniam.</p>
+            <a href="" class="hero-btn">Visit Us To Know More</a>
+        </div>
+    </section>
+    <section class="blog">
+        <div class="row-blog">
+            <div class="blog-col">
+                <img src="img/cafeteria.jpg">
+                <h3>University Cafeteria</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae, officia atque. Voluptatum nobis
+                    delectus asperiores tenetur ad. Rerum, sequi! Itaque reprehenderit rem praesentium natus laudantium
+                    animi distinctio mollitia eum veritatis esse magnam sed architecto nulla, voluptate, repellat
+                    voluptatem doloremque veniam, ab dolor quis aperiam reiciendis odio nostrum. Odio quia nesciunt
+                    ducimus laudantium. Similique quo ipsa aperiam, ab laborum at sint atque. Blanditiis vitae quam
+                    molestias dolores nobis? Inventore, corporis ea. Recusandae omnis magnam iure repellendus quibusdam
+                    obcaecati est, rerum unde et ex. Modi itaque culpa et autem illo deleniti, quibusdam nesciunt
+                    molestias fuga, nemo aliquid repellat porro nostrum voluptatum est?</p>
+            </div>
+            <div class="blog-col">
+                <img src="img/certificatte.jpg">
+                <h3>Certified Degree</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae, officia atque. Voluptatum nobis
+                    delectus asperiores tenetur ad. Rerum, sequi! Itaque reprehenderit rem praesentium natus laudantium
+                    animi distinctio mollitia eum veritatis esse magnam sed architecto nulla, voluptate, repellat
+                    voluptatem doloremque veniam, ab dolor quis aperiam reiciendis odio nostrum. Odio quia nesciunt
+                    ducimus laudantium. Similique quo ipsa aperiam, ab laborum at sint atque. Blanditiis vitae quam
+                    molestias dolores nobis? Inventore, corporis ea. Recusandae omnis magnam iure repellendus quibusdam
+                    obcaecati est, rerum unde et ex. Modi itaque culpa et autem illo deleniti, quibusdam nesciunt
+                    molestias fuga, nemo aliquid repellat porro nostrum voluptatum est?</p>
+            </div>
+        </div>
+    </section>
+    <!-- ----------------------------Footer--------------------------------- -->
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad, possimus adipisci, qui nihil exercitationem
+            nulla eveniet <br> provident distinctio aut aliquid unde aperiam illum id ea dolores reprehenderit in saepe
+            quaerat!</p>
+        <div class="icons">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-linkedin"></i>
+        </div>
+        <p>By Zehra Khan</p>
+    </section>
+    <!-- -------------------------------------------------JavaScript for Toggle Menu------------------------------------------------- -->
+    <script>
+        var navLinks = document.getElementById("navLinks")
+        function showMenu() {
+            navLinks.style.right = "0";
+        }
+        function hideMenu() {
+            navLinks.style.right = "-200px";
+        }
+    </script>
+
+</body>
+
+</html>
